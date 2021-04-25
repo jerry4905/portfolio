@@ -4,27 +4,33 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-image: url("../images/bg-main.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
+    background-color:black;
 }
 /* Apply Styles to header nav ul */
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+body {
+    background-color:rgba(248, 230, 230, 0.747);
 }
 .flex-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+.hero {
+    background-image: url("../images/bg-main.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
 }
