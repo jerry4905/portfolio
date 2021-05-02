@@ -1,16 +1,13 @@
 /* Apply Styles to header */
 header {
-    padding: 20px 35px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
     background-color:black;
 }
 /* Apply Styles to header nav ul */
 header nav ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
@@ -19,8 +16,6 @@ body {
 }
 .flex-row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
 }
 .hero {
