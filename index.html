@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Jerry Carmona's Portfolio</title>
 </head>
 
@@ -41,79 +43,86 @@
 
     </section>
     <!-- Body of website -->
-    <section id="about-me" class="flex-row">
-        <div class="flex-row">
-            <h3 class="section-title">About Me </h3>
-
-        </div>
-        <div class="flex-row">
-            <p>
-                My Journey as a web developer started in April 2021 when i deicided to enroll in a bootcamp at UCLA to
-                take my Skills ot the next level! These are the results.
-            </p>
-        </div>
-
-    </section>
-    <section id="work" class="flex-row">
-        <div class="flex-row">
-            <h3 class="section-title">Work </h3>
-
-        </div>
-        <div class="flex-row">
-            <div>
-                <div>
-                    <a href="https://jerry4905.github.io/accessibility-plus/"><img
-                            src="https://via.placeholder.com/300?text=Accessibility-plus"></a>
-                </div>
-                <div>
-                    <a href="https://jerry4905.github.io/run-buddy/"><img
-                            src="https://via.placeholder.com/150?text=Run+Buddy"></a>
-                </div>
-                <div>
-                    <a href=" https://jerry4905.github.io/robot-gladiators/"><img
-                            src="https://via.placeholder.com/150?text=Robot+Gladiators"></a>
-                </div>
-                <div>
-                    <a href="https://jerry4905.github.io/To-do-list/"><img src="https://via.placeholder.com/150?text=To+Do+List"></a>
-                </div>
-                <div>
-                    <a href="https://jerry4905.github.io/pointless-adventures/"><img src="https://via.placeholder.com/150?text=Project+5"></a>
-                </div>
-
+    <div id="about-me" class="container">
+        <div class="row">
+            <div class="col-3">
+                <h3 class="section-title">About Me </h3>
+            </div>
+            <div class="col-6">
+                <p>
+                    My Journey as a web developer started in April 2021 when i deicided to enroll in a bootcamp at UCLA
+                    to
+                    take my Skills ot the next level! These are the results.
+                </p>
             </div>
         </div>
+        <div class="row">
+            <div id="work" class="col-3">
+                <h3 class="section-title">Work </h3>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12">
+                        <a href="https://jerry4905.github.io/pointless-adventures/"><img
+                            src="https://via.placeholder.com/150?text=Project+5"></a>
+                    </div>
+                    <div class="col-3">
+                        <a href="https://jerry4905.github.io/run-buddy/"><img
+                            src="https://via.placeholder.com/150?text=Run+Buddy"></a>
+                    </div>
+                    <div class="col-3">
+                        <a href=" https://jerry4905.github.io/robot-gladiators/"><img
+                            src="https://via.placeholder.com/150?text=Robot+Gladiators"></a>
+                    </div>
+                    <div class="col-3">
+                        <a href="https://jerry4905.github.io/To-do-list/"><img
+                            src="https://via.placeholder.com/150?text=To+Do+List"></a>
+                    </div>
+                    <div class="col-3">
+                        <a href="https://jerry4905.github.io/accessibility-plus/"><img
+                            src="https://via.placeholder.com/150?text=Accessibility-plus"></a>
+                    </div>
+                <div>
+                    
 
-    </section>
-    <section id="contact-me" class="flex-row">
-        <div class="flex-row">
-            <h3 class="section-title">Contact Me </h3>
-
+                </div>
+            </div>
         </div>
-        <div class="flex-row">
-            <div>
+        <div class="row">
+            <div id="contact-me"class="col-3">
+                <h3 class="section-title">Contact Me </h3>
+            </div>
+            <div class="col-6">
+
                 <ul>
                     <li>(661) 406-1366</li>
                     <li><a href="mailto: jerry4905@hotmail.com"> Email </a></li>
                     <li> <a href="https://github.com/jerry4905"> Github </a></li>
                     <li> <a href="https://www.linkedin.com/in/gerardo-carmona-03117599/"> LinkedIn</a></li>
                 </ul>
+
             </div>
         </div>
-
-    </section>
-    <section id="resume" class="flex-row">
-        <div class="flex-row">
-            <h3 class="section-title">Resume </h3>
-
+        <div class="row">
+            <div id="resume" class="col-3">
+                <h3 class="section-title">Resume </h3>
+            </div>
+            <div class="col-6">
+                link to resume
+            </div>
         </div>
+    </div>
 
-    </section>
+   
     <footer>
         <h4> Thanks for visiting!</h4>
         <div>
             &copy; 2021 Jerry Carmona
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 
 
 </body>
